@@ -54,10 +54,10 @@ PostgresSQL 12.8
 psycopg2 - PostgreSQL database adapter for Python
 
 <h2>How to run</h2>
-<p> Using SQL shell(psql) to create studentdb and sparkifydb postgres databases on your local machine</p>
-<p>Run the following in Anaconda Promp(APP)</p>
+<p> Use SQL shell(psql) to create studentdb and sparkifydb postgres databases on your local machine</p>
+<p>Run the following in Anaconda Promp(APP) in order</p>
  <ol>
   <li>python create_tables.py</li>
   <li>python etl.py</li>
  </ol>
-<p>To make quieres and the to check the database run test.ipynb in Jupyter Notebook</p>
+<p>To make quieres and to check the databas, run test.ipynb in Jupyter Notebook</p>
