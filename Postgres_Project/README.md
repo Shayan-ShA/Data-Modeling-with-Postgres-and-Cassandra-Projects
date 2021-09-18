@@ -1,4 +1,4 @@
-<h2>Overview</h2>
+<h2>Overview</h2> 
 
 A startup called <b>Sparkify</b> wants to analyze the data they have been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to.
 
@@ -24,13 +24,13 @@ In this project, I modeled data with Postgres and built an ETL pipeline using Py
 
 <b> time: </b> timestamps of records in songplays broken down into specific units
 
-<b>Project Design</b>
+<h2>Project Design</h2>
 
 Database Design is very optimized because with a new number of tables and doing specific join, we can get the most information and do analysis
 
 ETL Design is also simplified have to read json files and parse accordingly to store the tables into specific columns and proper formatting
 
-<b>Database Script</b>
+<h2>Database Script</h2>
 
 Writing "python create_tables.py" command in terminal, it is easier to create and recreate tables
 
@@ -38,26 +38,24 @@ Writing "python create_tables.py" command in terminal, it is easier to create an
 
 etl.ipynb, a Jupyter notebook is given for verifying each command and data as well and then using those statements and copying into etl.py and running it into terminal using "python etl.py" and then running test.ipynb to see whether data has been loaded in all the tables
 
-<b>Relevant Files Provided </b>
+<h2>Relevant Files Provided </h2>
 
-<b>test.ipnb </b>displays the first few rows of each table to let you check your database
+<b>test.ipynb </b>displays the first few rows of each table to let you check the database
 
 <b>create_tables.py </b>drops and created your table
 
-<b>etl.ipynb </b>read and processes a single file from song_data and log_data and loads into your tables in Jupyter notebook
-
-<b>etl.ipynb </b>read and processes a single file from song_data and log_data and loads into your tables in ET
+<b>etl.py </b>read and processes a single file from song_data and log_data and loads into your tables in ET
 
 <b>sql_queries.py </b>containg all your sql queries and in imported into the last three files above
 
 <b>Environment</b>
-Python 3.6 or above
-PostgresSQL 9.5 or above
+Python 3.8
+PostgresSQL 12.8
 psycopg2 - PostgreSQL database adapter for Python
 
 <b>How to run</b>
-Create studentdb and sparkifydb postgres databases on your local machine through SQL shell
-
-python create_tables.py 
-python etl.py 
-
+  Using SQL shell(psql) to create studentdb and sparkifydb postgres databases on your local machine
+Rung the following in Anaconda Promp(APP)
+  python create_tables.py 
+  python etl.py 
+To make quieres and the to check the database run test.ipynb in Jupyter Notebook
