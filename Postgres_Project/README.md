@@ -48,10 +48,12 @@ etl.ipynb, a Jupyter notebook is given for verifying each command and data as we
 
 <b>sql_queries.py </b>containg all your sql queries and in imported into the last three files above
 
-<b>Environment</b>
-Python 3.8
-PostgresSQL 12.8
-psycopg2 - PostgreSQL database adapter for Python
+<h2>Environment</h2>
+<ol>
+ <li>Python 3.8</li>
+ <li>PostgresSQL 12.8</li>
+ <li>psycopg2 - PostgreSQL database adapter for Python</li>
+</ol>
 
 <h2>How to run</h2>
 <p> Use SQL shell(psql) to create studentdb and sparkifydb postgres databases on your local machine</p>
