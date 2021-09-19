@@ -18,7 +18,8 @@ In this project, I modeled a dataset with Apache Cassandra and complete an ETL p
 
 <h2>How to run</h2>
 Follow the instructions of this 
-[link](https://phoenixnap.com/kb/install-cassandra-on-windows) to setup Cassandra on your local computer
+[link](https://phoenixnap.com/kb/install-cassandra-on-windows)
+to setup Cassandra on your local computer
 <p>Start Cassandra server</p>
 <p>Run Project_1B_ Project.ipynb in Jupyter notebook</p>
     <p>The code has some tests in the end to check the database and make some queries</p>
