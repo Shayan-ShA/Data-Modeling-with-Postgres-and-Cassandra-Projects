@@ -17,6 +17,7 @@ In this project, I modeled a dataset with Apache Cassandra and complete an ETL p
 </ol>
 
 <h2>How to run</h2>
+
 [This](https://phoenixnap.com/kb/install-cassandra-on-windows) is the instruction to setup Cassandra on your local computer
 
 <p>Start Cassandra server</p>
