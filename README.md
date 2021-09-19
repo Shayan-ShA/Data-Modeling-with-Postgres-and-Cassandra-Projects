@@ -5,4 +5,4 @@ More details of each project is in the ReadMe files inside each project folder.
 
 
 
-![Certificate.pdf](https://github.com/Shayan-ShA/Data-Modeling-with-Postgres-and-Cassandra-Projects-Udacity_DataEngineering/blob/main/Certificate.pdf)
+![Certificate.pdf](https://github.com/Shayan-ShA/Data-Modeling-with-Postgres-and-Cassandra-Projects-Udacity_DataEngineering/blob/main/Certificate.png)
